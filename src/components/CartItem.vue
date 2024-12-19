@@ -27,7 +27,7 @@ defineProps({
         <img
           @click="() => deleteItemFromCart(id)"
           class="opacity-40 hover:opacity-100 cursor-pointer transition absolute right-12"
-          src="/close.svg"
+          src="./close.svg"
         />
       </div>
     </div>

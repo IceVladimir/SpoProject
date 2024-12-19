@@ -31,7 +31,7 @@ defineProps({
         <img
           class="rounded-2xl w-16 h-16 cursor-pointer transition hover:shadow-xl cursor-pointer transition"
           @click="() => addItemToCart(title, price, imageUrl, discount)"
-          :src="!isAdded ? '/plus.svg' : 'checked.svg'"
+          :src="!isAdded ? './plus.svg' : './checked.svg'"
           alt="Plus"
         />
       </div>
